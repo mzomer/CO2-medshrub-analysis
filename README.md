@@ -55,7 +55,7 @@ The `renv.lock` file ensures all analyses use the same package versions as the o
 
 - `CO2-medshrub.Rproj` – RStudio Project file (opens the project root)
 
-- `renv.lock` – records the exact versions of all R packages used in the project; these are restored during the Docker build via renv::restore().
+- `renv.lock` – records the exact versions of all R packages used in the project
 
 ## README Files ##
 
