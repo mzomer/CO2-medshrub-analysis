@@ -4,14 +4,17 @@ This repository contains all code, data, and outputs needed to reproduce the ana
 
 **Maya A. Zomer, Bruno Moreira, Jordi Martínez-Vilalta, Juli G. Pausas (2026). Drought response of fire-adapted Mediterranean shrubs under elevated CO₂. *Tree Physiology*, tpag006. https://doi.org/10.1093/treephys/tpag006.**
 
-We investigated how elevated atmospheric CO₂ and drought affect five Mediterranean shrub species characterized by the post-fire seeding life-history strategy. Among the studied species, three are obligate post-fire seeders (non-resprouting: *Cistus albidus*, *Lavandula stoechas*, *Salvia rosmarinus*), while two are facultative post-fire seeders (resprouting: *Anthyllis cytisoides*, *Dorycnium pentaphyllum*). Plants were grown from seed under ambient or elevated CO₂ in experimental greenhouses for eight months, then subjected to a three-phase progressive drought (50%, 30%, 10% soil water content). We measured leaf functional traits (specific leaf area, stomatal density), biomass allocation (above- and belowground biomass, root-to-shoot ratios), water status (midday water potential, osmotic potential), water-fluxes((transpiration) and hydraulic behaviour (whole-plant and leaf-specific hydraulic conductance and conductivity) across all drought phases. 
+We investigated how elevated atmospheric CO₂ and drought affect five Mediterranean shrub species characterized by the post-fire seeding life-history strategy. Among the studied species, three are obligate post-fire seeders (non-resprouting: *Cistus albidus*, *Lavandula stoechas*, *Salvia rosmarinus*), while two are facultative post-fire seeders (resprouting: *Anthyllis cytisoides*, *Dorycnium pentaphyllum*). 
+Plants were grown from seed under ambient or elevated CO₂ in experimental greenhouses for eight months, then subjected to a three-phase progressive drought (50%, 30%, 10% soil water content). 
+We examined leaf functional traits (specific leaf area, stomatal density), biomass allocation (above- and belowground biomass, root-to-shoot ratios), water status (midday water potential, osmotic potential), water fluxes (transpiration), and hydraulic behaviour (whole-plant and leaf-specific hydraulic conductance and conductivity) across 138 plants (12–15 per species per CO₂ treatment).
 
 We addressed three key questions: 
 1. For each species, does eCO₂ alter plant traits and resource allocation? 
 2. For each species, during drought, does eCO₂ alter plant water status, water fluxes, and hydraulic behavior? 
 3. Does the ability to resprout modify the above eCO₂ effects and drought responses (resprouting vs non-resprouting seeders)?
 
-We used linear mixed-effects models (lmer) to analyze species-specific and resprouter trait effects on response variables. Model selection followed a stepwise approach comparing nested models with likelihood ratio tests. Predicted marginal means and pairwise contrasts (with Bonferroni adjustment) were used for post-hoc comparisons.
+We used linear mixed-effects models (lmer) to analyze species-specific and resprouter trait effects on response variables. Model selection followed a forward stepwise approach to select the most parsimonious model in all cases; each variable was added sequentially in order of their contribution to the explained variance, assessed by analysis of variance (ANOVA) and Akaike information criterion (AIC). 
+Predicted marginal means and pairwise contrasts were used for post-hoc comparisons.
 
 ---
 
